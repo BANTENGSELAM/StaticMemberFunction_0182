@@ -43,5 +43,9 @@ int main (){
     // pembuatan object dan pemberian nilai
     Mahasiswa mhs1("Sri ");
     Mahasiswa mhs2("Budi ");
+    // memberi nilai pada setNim() untuk merubah nilai NIM
+    Mahasiswa::setNim(9);
+    Mahasiswa mhs3("Andi");
+    Mahasiswa mhs2("Joko");
 
 }
