@@ -11,4 +11,9 @@ class Mahasiswa { // membuat class mahasiswa
             //deklarasi prosedur setID() dan printAll()
             void setID();
             void printAll();
+
+            //pembuatan contructor Mahasiswa dengan parameter pnama
+            Mahasiswa(string pnama) :nama(pnama){
+                    setID();
+            }
 };
