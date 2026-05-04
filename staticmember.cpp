@@ -17,3 +17,6 @@ class Mahasiswa { // membuat class mahasiswa
                     setID();
             }
 };
+
+// memberi value ke variable nim dari class mahasiswa
+int Mahasiswa::nim = 10;
