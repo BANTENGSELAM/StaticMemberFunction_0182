@@ -7,4 +7,8 @@ class Mahasiswa { // membuat class mahasiswa
             //deklarasi variable member
             int id;
             string nama;
+
+            //deklarasi prosedur setID() dan printAll()
+            void setID();
+            void printAll();
 };
